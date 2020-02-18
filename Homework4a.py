@@ -19,7 +19,3 @@ def getRepositories(gitHubUsername):
             count = count + 1
         repoSummaryList.append([i['name'], count])
     return repoSummaryList
-
-
-listor = getRepositories("mwisnews")
-print(listor)

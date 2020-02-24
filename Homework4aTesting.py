@@ -1,4 +1,6 @@
 import unittest
+import requests
+import json
 import Homework4a
 
 class TestHomeworka(unittest.TestCase):
